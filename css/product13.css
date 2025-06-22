@@ -1,0 +1,20 @@
+.page-title{
+    color:#447b15;
+    font-weight: bold;
+}
+.row b{
+    color:#d61700;
+}
+.row span b{
+    color:#3e9ab7;
+}
+.row a{
+    color: rgb(101, 101, 101);
+}
+.row ul{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.fa-solid{
+    margin-right: 10px;
+}
