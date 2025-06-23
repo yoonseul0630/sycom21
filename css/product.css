@@ -581,7 +581,7 @@ font-size: 0.8em;
 }
 .red{
     color: #d21616;
-    font-size: 2px;
+    font-size: 2px!important;
 }
 .go{
     display: flex;
