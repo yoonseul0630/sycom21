@@ -581,6 +581,7 @@ font-size: 0.8em;
 }
 .red{
     color: #d21616;
+    font-size: 2px;
 }
 .go{
     display: flex;
@@ -642,6 +643,7 @@ font-size: 0.8em;
     padding: 8px 0px;
     height: 35px;
     font-size: 3px;
+   
   }
   .right .block:nth-child(6){
     margin-bottom: 50px;
