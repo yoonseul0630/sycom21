@@ -18,3 +18,10 @@
 .fa-solid{
     margin-right: 10px;
 }
+@media (max-width: 767px) {
+
+.row{
+    margin-top: 20px;
+    font-size: 0.4em;
+}
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>에스와이컴</title>
     <script>
         (function(d) {
           var config = {
@@ -17,16 +17,7 @@
       
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     
-<script>
-    $(document).ready(function(){
-      var currentPosition = parseInt($(".quickmenu").css("top"));
-      $(window).scroll(function() {
-        var position = $(window).scrollTop(); 
-        $(".quickmenu").stop().animate({"top":position+currentPosition+"px"},1000);
-      });
-    });
-    
-              </script>  
+
 <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/company_info.css">
 </head>
@@ -64,19 +55,7 @@
                         <a href="company_map.html"> <li class="f3"><span class="line">s</span>찾아오시는 길</li></a>
                     </ul>
 
-                    <div class="quickmenu">
-                    <ul class="call" id="call">
-                        <li>
-                         <img src="./img/2p/cs.png" alt="">
-                        </li>
-                        <li class="f3 phone_color1"><span class="f5">Tel. </span>02) 862 - 0975</li>
-                        <li class="f3 phone_color1"><span class="f5">Fax. </span>0504 000 6436</li>
-                        <li class="f4 phone_color1">sales@sycom21.co.kr</li>
-                        <li class="f4 phone_color2 time"><span class="f6">운영시간: </span>평일 09:00 ~ 18:00</li>
-                        <li class="f4 phone_color2 time">주말, 공휴일 휴무</li>
-
-                    </ul>
-                </div>
+                  
                 </li>
                 <li class="right">
                     <h2 class="f5 title">
@@ -133,6 +112,19 @@
             </ul>
 
         </section>
+          <div class="quickmenu">
+                    <ul class="call" id="call">
+                        <li>
+                         <img src="./img/2p/cs.png" alt="">
+                        </li>
+                        <li class="f3 phone_color1"><span class="f5">Tel. </span>02) 862 - 0975</li>
+                        <li class="f3 phone_color1"><span class="f5">Fax. </span>0504 000 6436</li>
+                        <li class="f4 phone_color1">sales@sycom21.co.kr</li>
+                        <li class="f4 phone_color2 time"><span class="f6">운영시간: </span>평일 09:00 ~ 18:00</li>
+                        <li class="f4 phone_color2 time">주말, 공휴일 휴무</li>
+
+                    </ul>
+                </div>
         <footer>
             <ul class="f1">
                 <li>(08505) 서울시 금천구 가산디지털2로 123, 월드메르디앙2차 1003-4호</li>
@@ -140,29 +132,7 @@
             </ul>
           </footer>
          
-<script>
-window.addEventListener('scroll', function() {
-  const callElements = document.querySelectorAll('.call');
-  const scrollY = window.scrollY;
 
-  callElements.forEach((element, index) => {
-    const delay = index * 400;
-
-    setTimeout(() => {
-      const offset = scrollY / 10; 
-     
-      element.style.transition = "transform 0.5s ease-in-out";  
-
-    
-      element.style.transform = `translateY(-${offset + (index * 50)}px)`; 
-    }, delay);  
-  });
-});
-
-
-
-
-</script>
        
 </body>
 </html>
