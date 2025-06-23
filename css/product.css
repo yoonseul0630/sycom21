@@ -461,10 +461,10 @@ gap:30px;
     flex: 0.9;
 }
 .left_bar{
-    width:70px;
+    width:90px;
 }
 .left_bar li{
-   height:15px;
+   height:20px;
     font-size:6px;
     margin-bottom: 3px;
 }
@@ -640,8 +640,8 @@ font-size: 0.8em;
     border-top: none;
     line-height: 5px;
     padding: 8px 0px;
-    height: 10px;
-    font-size: 4px;
+    height: 20px;
+    font-size: 3px;
   }
   .right .block:nth-child(6){
     margin-bottom: 50px;
