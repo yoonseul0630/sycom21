@@ -5,6 +5,7 @@ section{
 }
 .section_ul{
     display: flex;
+    
 }
 .left{
     flex: 0.2;
