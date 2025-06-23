@@ -144,3 +144,108 @@ footer ul{
 footer ul li:nth-child(2){
     margin-top: 10px;
 }
+
+
+/*미디어 쿼리 - 핸드폰*/ 
+@media (max-width: 767px) {
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*        header          */
+header{
+    width:98%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.header_ul_first{
+    display: block;
+    width: 100%;
+}
+.header_ul_first_li1{
+    overflow: hidden;
+    display: flex;
+    height: 60px;
+    margin-top: 30px;      
+}
+.header_ul_first_li1 img{
+    width:60%;
+}
+
+.header_ul_first_li2 ul{
+    width:100%;
+display: flex;
+justify-content: space-around;
+    background-color:#6ba53a;
+    height:40px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header_ul_first_li2 ul li a{
+    color: #fff;
+    display: block;
+    transition: ease-in 0.3s;
+    font-size: 10px;
+}
+.header_ul_first_li2 ul li a:hover{
+    color:#2e4f17;
+}
+.header_lot{
+    margin-top: 20px;
+    position:relative;
+    width:100%;
+    display: flex;
+    align-items: center;
+    height:20px;
+}
+.header_lot img{
+    width:50%;
+}
+.header_right_img{
+    width:30%!important;
+}
+.top{
+    position:absolute;
+    top:20px;
+    right:3px;
+}
+.top ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 8px;
+}
+.top ul li{
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    text-align: center;
+padding:0 5px;
+}
+.top ul li:nth-child(3){
+    border: none;
+}
+/*                footer         */
+footer{
+   
+    width:100%;
+    box-sizing: border-box;
+    height:90px;
+   background-color: #323e48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+footer ul{
+    width:70%;
+    text-align: center;
+    margin: 0 auto;
+}
+footer ul li:nth-child(2){
+    margin-top: 10px;
+}
+
+}
