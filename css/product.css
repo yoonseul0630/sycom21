@@ -638,9 +638,9 @@ font-size: 0.8em;
   .block_product li:nth-child(2){
     text-align: center;
     border-top: none;
-    line-height: 5px;
+    line-height: 10px;
     padding: 8px 0px;
-    height: 20px;
+    height: 35px;
     font-size: 3px;
   }
   .right .block:nth-child(6){
