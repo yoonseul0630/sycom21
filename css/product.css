@@ -465,7 +465,7 @@ gap:30px;
 }
 .left_bar li{
    height:20px;
-    font-size:6px;
+    font-size:8px;
     margin-bottom: 3px;
 }
 
@@ -581,7 +581,7 @@ font-size: 0.8em;
 }
 .red{
     color: #d21616;
-    font-size: 2px!important;
+   
 }
 .go{
     display: flex;
